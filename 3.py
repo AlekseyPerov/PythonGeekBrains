@@ -1,4 +1,5 @@
 a = int(input('Введите число - '))
-b = int(a + a)
-c = int(a + a + a)
-print(int(a + b + c))
+b = str(a)
+c = b + b
+d = b + b + b
+print(a + int(c) + int(d))
